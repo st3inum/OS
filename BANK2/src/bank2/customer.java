@@ -16,7 +16,8 @@ public class customer {
     {
         if(xx) {
             System.out.println(Thread.currentThread().getName()+" system busy ");
-            Thread.sleep(20);
+            int temp=100000;
+            while(temp!=0)temp--;
             withdraw(bal);
         }
          else {
